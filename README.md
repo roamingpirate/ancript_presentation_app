@@ -31,13 +31,13 @@ Make your presentations come alive with expressive AI avatars that explain your 
 ## 📸 Screenshots
 
 ### 1. Upload Your Presentation
-![Upload](/ancriptDemoImg1.png)
+![Upload](./public/ancriptDemoImg1.png)
 
 ### 2. Record Your Thoughts Casually
-![Record](/ancriptDemoImg3.png)
+![Record](./public/ancriptDemoImg3.png)
 
 ### 3. AI Generates Polished Scripts and Avatars
-![Avatar](/ancriptDemoImg6.png)
+![Avatar](./public/ancriptDemoImg6.png)
 
 ---
 
