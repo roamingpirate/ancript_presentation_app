@@ -2,20 +2,108 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@layer utilities {
+    .bg-gray-transition:hover {
+        background-color: rgb(229, 231, 235);
+        transition: background-color 0.1s;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Custom modern scrollbar without arrows */
+
+/* Firefox */
+.scrollbar-clean {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e0 transparent;
+}
+
+/* Chrome, Edge, Safari */
+.scrollbar-clean::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-clean::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-clean::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Hide top/bottom arrow buttons */
+.scrollbar-clean::-webkit-scrollbar-button {
+  height: 0;
+  display: none;
+}
+
+
+
+
+.loader {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    position: relative;
   }
+  .loader::after,
+  .loader::before {
+    content: '';  
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #302f2f;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: animloader 2s linear infinite;
+  }
+  .loader::after {
+    animation-delay: 1s;
+  }
+  
+  @keyframes animloader {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+
+  /* HTML: <div class="loader"></div> */
+.loader2 {
+  width: 45px;
+  aspect-ratio: 1;
+  --c: no-repeat linear-gradient(#000 0 0);
+  background: 
+    var(--c) 0%   100%,
+    var(--c) 50%  100%,
+    var(--c) 100% 100%;
+  animation: l2 1.5s infinite linear;
+}
+@keyframes l2 {
+  0%  {background-size: 20% 100%,20% 100%,20% 100%}
+  20% {background-size: 20% 60% ,20% 100%,20% 100%}
+  40% {background-size: 20% 80% ,20% 60% ,20% 100%}
+  60% {background-size: 20% 100%,20% 80% ,20% 60% }
+  80% {background-size: 20% 100%,20% 100%,20% 80% }
+  100%{background-size: 20% 100%,20% 100%,20% 100%}
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #15436D;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-bottom-width: 10px;
 }
