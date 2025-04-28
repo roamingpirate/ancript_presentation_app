@@ -34,7 +34,7 @@ Make your presentations come alive with expressive AI avatars that explain your 
 ![Upload](./public/ancriptDemoImg1.png)
 
 ### 2. Record Your Thoughts Casually
-![Record](./public/ancriptDemoImg3.png)
+![Record](./public/ancriptDemoImg4.png)
 
 ### 3. AI Generates Polished Scripts and Avatars
 ![Avatar](./public/ancriptDemoImg6.png)
