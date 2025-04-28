@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎥 Ancript
 
-## Getting Started
+**Turn Boring Slides into Interactive, Avatar-Guided Lessons!**  
+Make your presentations come alive with expressive AI avatars that explain your content — no video editing required!
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Upload Presentations** (PPT or PDF)
+- **Record Your Thoughts Casually** – No need for perfection
+- **AI-Generated Polished Script** – Your words turned into professional narration
+- **Animated AI Avatars** – 3D avatars speak and guide through your slides
+- **Background Scene Generation** – Auto-generated relevant backgrounds
+- **Effortless Sharing** – Share your interactive presentation with a simple link
+- **Multilingual Support** – Auto-translate into 20+ languages
+- **No Video Editing Needed** – Save 10+ hours per month!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 How It Works
 
-## Learn More
+1. **Upload Your Slides** – Import your PowerPoint or PDF.
+2. **Record Your Thoughts** – Speak casually; no scripting needed.
+3. **AI Enhances Everything** – Auto-generate polished scripts and avatars.
+4. **Pin Avatars Anywhere** – Guide your audience through your slides interactively.
+5. **Share Easily** – One link to access everything, anywhere.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. Upload Your Presentation
+![Upload](/ancriptDemoImg1.png)
 
-## Deploy on Vercel
+### 2. Record Your Thoughts Casually
+![Record](/ancriptDemoImg3.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. AI Generates Polished Scripts and Avatars
+![Avatar](/ancriptDemoImg6.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Why Ancript?
+
+- **Boost Course Completion Rates** – Make learning engaging and easy.
+- **Save Time** – No need for manual scripting, recording, or editing.
+- **Create Studio-Quality Content** – Without needing a studio.
+- **Works Anywhere** – Embed avatars in Teachable, Thinkific, or any LMS.
+
+---
+
+## 📢 Join the Future of Learning
+
+Transform your boring slides into dynamic, interactive learning experiences — all powered by AI avatars! 🚀
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<p align="center"><b>Made with ❤️ for creators and educators.</b></p>
